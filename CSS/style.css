@@ -32,7 +32,7 @@ padding-top: 15px;
 .topmost {
   display: flex;
   justify-content: space-around;
-  margin-top: 70px;
+  margin-top: 90px;
   margin-bottom: 40px;
 }
 
@@ -194,9 +194,15 @@ section {
   padding-left: 5px;
 }
 /* Styles for profile area */
+.profile-p {
+  color: gray;
+  padding-left: 180px;
+}
 .profile {
   padding: 20px;
   display: flex;
+  padding-top: 15px;
+  padding-bottom: 0px;
 }
 
 .name {
@@ -230,6 +236,7 @@ section {
   width: 330px;
   display: flex;
   justify-content: space-around;
+  padding-left: 180px;
   margin: 10px 0;
 }
 
@@ -241,19 +248,19 @@ section {
   border: none;
   border-radius: 40px;
   height: 3px;
-  background-color: blue;
-  color: blue;
+  background-color: #E2EEFF;
+  color: blue
 }
 
 #overview {
   border: 1px solid blue;
-  background-color: blue;
-  color:blue;
+  background-color: #E2EEFF;
+  color: blue;
 }
 
 .title {
   margin: 10px 0;
-  color: rgb(20, 20, 20);
+  color: rgba(12, 130, 226, 0.43);
   font-weight: 400;
 }
 
